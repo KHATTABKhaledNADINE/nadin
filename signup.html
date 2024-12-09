@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     
+    <title>Signup Page</title>  
+    <link rel="stylesheet" href="style.css">
+
+<body>
+<header>
+    <img src="assets\logo.png" height="88" width="88" alt="logo">
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="signup.html">Sign Up</a></li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <h2>Sign Up</h2>
+    <p>Register to be comfortable</p>
+    <form>
+        <div>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name">
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email">
+        </div>
+        <div>
+            <label for="userAge">Age</label>
+            <input type="text" id="userAge" name="userAge">
+        </div>
+        <div>
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password">
+        </div>
+        <div>
+            <label for="confirm_password">Confirm Password</label>
+            <input type="password" id="confirm_password" name="confirm_password">  
+        </div>
+        <div class="div_sign">
+            <label>Gender</label>
+            <input   style="margin-top: -12px;margin-right: 6px" type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input  style="margin-top: -12px;margin-right: 6px" type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+        </div>
+        <div class="div_sign">
+            <label for="terms">Terms and Conditions</label>
+            <input style="margin-top: 4px;" type="checkbox" id="terms" name="terms">
+            <label for="terms">I agree to the terms and conditions.</label>
+        </div>
+            <button onclick="onSubmit()">Sign Up</button>
+     </form>
+
+</main>
+ 
+<footer>
+    <form>
+        <div>
+            <p>Contact Information:</p>
+            <ul>
+                <li>Address:PS/Gaza Strip - Gaza City</li>
+                <li>Phone:+970595959595</li>
+                <li>Email: Mashtak@gmail.com</li>
+            </ul>
+        </div>
+        <div>
+            <p>Social Media:</p>
+            <ul>
+                <li><a href="https://www.facebook.com/?locale=ar_AR" target="_blank">Facebook</a></li>
+                <li><a href="https://x.com/?lang=ar&mx=2" target="_blank">X</a></li>
+                <li><a href="https://www.instagram.com/" target="_blank">Instagram</a></li>
+            </ul>
+        </div>
+    </form>
+    <p>&copy; 2024 Mashtak. All rights reserved.</p>
+    <p><a href="https://policies.google.com/privacy?hl=ar" target="_blank">Privacy Policy</a></p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>

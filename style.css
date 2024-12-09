@@ -1,0 +1,173 @@
+
+
+
+body {
+    font-family: Arial, sans-serif; /* Set base font family */
+}
+
+h1, h2 {
+    font-family: 'bebas_neue_regular', serif; /* Use a different font for headings */
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-family: 'Roboto', serif; /* Use a different font for headings */
+    font-size: 14px;
+
+    color: #120b0b; /* Set paragraph text color */
+}
+
+a {
+    color: #064789; /* Set link color */
+    text-decoration: none; /* Remove underline */
+}
+
+a:hover {
+    color: #fbad20; /* Change link color on hover */
+}
+
+button {
+    color: #064789; /* Set link color */
+    text-decoration: none; /* Remove underline */
+    background-color: #fbad20;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+
+}
+button:hover {
+    color: #fbad20; /* Change link color on hover */
+    background-color: #064789;
+}
+
+header {
+    padding: 20px 0;
+    align-items: center;
+    height: 20px;
+    background-color: #ffeeaf;
+    display: flex; /* Arrange logo and navigation bar horizontally */
+    justify-content: space-between; /* Space items evenly */
+
+}
+
+main{
+    margin:32px;
+}
+
+footer {
+    background-color: #ffeeaf;
+    padding: 10px 0;
+    text-align: center; /* Center footer content */
+    clear: both; /* Prevent footer from overlapping content */
+
+}
+
+.main-content { /* Create a class for main content area */
+    background-color: #fff;
+    padding: 50px;
+      margin: 0 auto; /* Center main content horizontally */
+    width: 80%; /* Set width for the main content area */
+}
+
+
+.logo {
+    width: 100px; /* Adjust logo size */
+}
+
+nav ul {
+    list-style: none; /* Remove bullet points from list */
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    align-items: start;
+}
+
+img {
+    max-width: 100%; /* Responsive image sizing */
+    height: 250px;
+    width: 250px;
+}
+
+iframe {
+    width: 100%; /* Responsive iframe sizing */
+    aspect-ratio: 16/9; /* Maintain video aspect ratio */
+}
+
+.div_sign{
+    display: flex;margin: 0 auto; flex-wrap: wrap;
+}
+
+form {
+    display: flex; /* Arrange form elements horizontally */
+    flex-wrap: wrap; /* Allow elements to wrap on smaller screens */
+    width: 50%; /* Set form width */
+    margin: 0 auto; /* Center form horizontally */
+    padding: 20px;
+    border: 1px solid #ddd; /* Add a thin border */
+    border-radius: 5px; /* Add rounded corners */
+  }
+label {
+    text-align: right;
+    clear: both;
+    float:left;
+    margin-right:15px;
+}
+
+div{
+    float: left;
+    flex: auto;
+    width: 100%;
+    padding: 6px;
+}
+
+input[type="checkbox"] {
+margin: 12px;
+}
+
+.radio-label { /* Style for radio button labels (optional) */
+display: inline-block;
+margin-right: 10px;
+}
+
+.form_footer{
+display: inline-block;
+}
+
+@font-face {
+    font-family: 'bebas_neue_regular';
+    font-style: NORMAL;
+    font-weight: 14;
+    font-display: swap;
+    }
+
+
+
+
+
+
+
+    /* style.css */
+label {
+    margin-bottom: 10px; /* يضيف مسافة أسفل كل علامة */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    margin-top: 5px;  /* يضيف مسافة فوق كل حقل إدخال */
+}
